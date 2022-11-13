@@ -261,6 +261,7 @@ dependencies {
 
     // Android SDK bundles org.json, but we need an actual implementation to replace the stubs in tests
     testImplementation 'org.json:json:20180813'
+    implementation("androidx.health.connect:connect-client:1.0.0-alpha07")
 }
 
 preBuild.dependsOn(":GBDaoGenerator:genSources")
